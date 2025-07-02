@@ -14,6 +14,7 @@ local function createGui(parent)
 	Frame2["ZIndex"] = 99
 	Frame2["BorderSizePixel"] = 5
 	Frame2["BackgroundColor3"] = Color3.new(0, 0, 0)
+        Frame2["Draggable"] = true
 	----Frame2----
 	--TextLabel3--
 	local TextLabel3 = Instance.new("TextLabel",Frame2)
@@ -46,7 +47,7 @@ local function createGui(parent)
 	local TextButton6 = Instance.new("TextButton",Frame2)
 	TextButton6["TextColor3"] = Color3.new(1, 0, 0)
 	TextButton6["BorderColor3"] = Color3.new(1, 0, 0)
-	TextButton6["Text"] = "IMORTAL"
+	TextButton6["Text"] = "HEAL"
 	TextButton6["Font"] = Enum.Font.Antique
 	TextButton6["Name"] = "Die"
 	TextButton6["Position"] = UDim2.new(0.695355177, 0, 0.441247016, 0)
@@ -87,6 +88,7 @@ local function createGui(parent)
 	TextButton10["ZIndex"] = 98
 	TextButton10["BorderSizePixel"] = 2
 	TextButton10["BackgroundColor3"] = Color3.new(0, 0, 0)
+        TextButton10["Draggable"] = true
 	----TextButton10----
 	--Script11--
 	local Script11 = Instance.new("Script",TextButton10)
